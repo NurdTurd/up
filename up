@@ -7,3 +7,4 @@ then
 fi
 scp $1 $dest
 echo "$baseurl$(basename $1)"
+echo "$baseurl$(basename $1)" | pbcopy
